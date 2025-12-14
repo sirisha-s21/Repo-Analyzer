@@ -37,8 +37,8 @@ It helps students and developers understand the quality of their code, documenta
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-analyzer.git
-cd github-analyzer
+git clone https://github.com/sirisha-s21/Repo-Analyzer.git
+cd Repo-Analyzer
 ```
 
 ---
@@ -77,7 +77,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Create `.env` file (copy from `.env.example`) and add your GitHub personal access token:
+5. Create `.env` file and add your GitHub personal access token:
 
 ```
 GITHUB_TOKEN=your_personal_github_token_here
@@ -95,10 +95,10 @@ uvicorn main:app --reload
 
 ### **3. Frontend Setup**
 
-1. Open a new terminal in the `frontend` folder:
+1. Open a new terminal in the `web` folder:
 
 ```bash
-cd frontend
+cd web
 ```
 
 2. Start a local server to serve the frontend:
